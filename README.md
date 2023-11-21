@@ -19,7 +19,7 @@ O tipo de VM usado para o nó driver do cluster.
 Se o cluster dá suporte ao dimensionamento automático para redimensionar dinamicamente o cluster.
 Quanto tempo o cluster pode permanecer ocioso antes de ser desligado automaticamente.
 
-*Como o Azure gerencia recursos de cluster*
+# Como o Azure gerencia recursos de cluster*
 
 Quando você cria um workspace do Azure Databricks, um dispositivo do Databricks é implantado como um recurso do Azure na sua assinatura. Ao criar um cluster no workspace, você especifica os tipos e tamanhos das VMs (máquinas virtuais) a serem usadas para os nós driver e de trabalho, bem como algumas outras opções de configuração, mas o Azure Databricks gerencia todos os outros aspectos do cluster.
 
